@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 20px;
+}
+
+input {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-left: 100px;
+}
+
+input[type="color"] {
+  margin-left: 50px;
+}
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid silver;
+  width: 15px;
+  height: 15px;
+}
+
+h1 {
+  font-family: cursive;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Pixel Art Maker</h1>
+
+        <form class="art-maker">
+            <p>
+                <label>Height:</label>
+                <input type="number" class="pixel-height" min="1" value="1">
+            </p>
+            <p>
+                <label>Width:</label>
+                <input type="number" class="pixel-width" min="1" value="1">
+            </p>
+            <p>
+                <label>Color:</label>
+                <input type="color" class="pixel-color">
+            </p>
+            <p><em>Click here to create your canvas</em></p>
+            <input type="submit" class="submit" value="OK">
+        </form>
+
+    </div>
+
+    <div class="container">
+        <h1>DRAW HERE</h1>
+
+        <table class="pixel-canvas"></table>
+        <br>
+        <p><em>Click here to remove the canvas</em></p>
+        <button class="clear-button">Clear</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
